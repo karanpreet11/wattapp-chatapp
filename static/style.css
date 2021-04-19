@@ -1,0 +1,101 @@
+section:nth-of-type(1) {
+  width: 400px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  box-shadow: 0px 1px 3px #ccc;
+  font-size: 24px;
+  color: #fff;
+}
+
+section:nth-of-type(2) {
+  width: 400px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  box-shadow: 0px 1px 3px #ccc;
+  min-height: 400px;
+  color: #fff;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+#chat input,
+button {
+  font-size: 24px;
+}
+
+ul {
+  /* list-style: none; */
+  font-size: 18px;
+}
+
+#login input {
+  font-size: 24px;
+}
+body {
+  font-family: sans-serif;
+background-image: url('img.png');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
+.container{
+    
+    width: 400px;
+    margin: 1% auto;
+    
+}
+#login-btn{
+  padding: 5px 20px;
+  width: 400px;
+  margin-top: 30px;
+  background: transparent;
+  border-radius: 30px;
+  box-shadow: 0 0 4px #fff;
+  cursor: pointer;
+  color: white;
+}
+input[placeholder]:focus{
+  color:#fff;
+}
+input:focus{
+  box-shadow: 0 0 10px #fff;
+}
+#login-btn:hover{
+  color: yellowgreen;
+  box-shadow: 0 0 10px yellowgreen;
+}
+input{
+  width: 400px;
+  margin-top: 20px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 13px;
+  border-radius:30px;
+  box-shadow: 0 0 4px #fff;
+  transition: box-shadow 0.5 ease;
+  }
+
+  #chat{
+    width: 600px;
+    height: 800px;
+    padding-left: 20px;
+  }
+  .log h3 {
+    letter-spacing: 5px;
+    color: white;
+}
+#chat input{
+  width:450px;
+}
+
+#send-btn{
+  width:90px;
+  margin-left: 5px;
+  padding:11px;
+}
